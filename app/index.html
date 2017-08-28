@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MetaCoin - Truffle Webpack Demo w/ Frontend</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1> FoodSafe </h1>
+  
+  <br>  <label for="contractAddress">Contract Address </label> </br>
+  <br>  <input type="text" id="contractAddress" placeholder="Scan address or create a new contract"> </input> </br>
+  <br>  <input type="text" id="locationId" placeholder="Enter Location Id"> </input> </br>
+  <br>  <input type="text" id="locationName" placeholder="Enter Location Name"> </input> </br>
+  <br> <input type="text" id="secret" placeholder="Enter Secret"> </input> </br>
+  <br>  <input type="text" id="passPhrase" placeholder="Enter Pass Phrase"> </input> </br>
+
+  </br>
+  <br> </br>
+  <button id="createContract" onclick="App.createContract()"> Create New Contract </button>
+  <br> </br>
+  <button id="addNewLocation" onclick="App.AddNewLocation()"> Add New Location </button>
+  <br> </br>
+  <button id="getCurrentLocation" onclick="App.getCurrentLocation()"> Get Current Location </button>
+  
+</body>
+</html>
