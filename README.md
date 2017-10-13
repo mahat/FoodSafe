@@ -1,5 +1,6 @@
-# truffle-init-webpack
-Example webpack project with Truffle. Includes contracts, migrations, tests, user interface and webpack build pipeline.
+# Ethereum Smart Contract DAPP example
+The project uses truffle-webpack and it have configuration for Microsoft Azure. 
+You need metamask plug-in for chrome in order to use project
 
 ## Usage
 
@@ -12,7 +13,7 @@ To initialize a project with this example, run `truffle init webpack` inside an 
 
 ## Possible upgrades
 
-* Use the webpack hotloader to sense when contracts or javascript have been recompiled and rebuild the application. Contributions welcome!
+The frontend of the project is week in future deployment I can add better frontend
 
 ## Common Errors
 
